@@ -22,6 +22,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
 header{
     background-image: linear-gradient(to top , var(--cor1), var(--cor2));
     min-width: 150px;
@@ -33,19 +34,16 @@ header h1{
     text-shadow: 0px 4px 6px rgb(0 0 0 / 18%);
     text-align: center;
     color: white;
-    padding-top: 10px;
+    padding-top: 30px;
     font-weight: normal;
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 50px;
-    text-indent: 10px;
+    font-size: 60px;
 }
 
 header p {
-    text-align: center  ;
+    text-align: center;
     color: white;
-    margin-bottom: 5px;
-    text-indent: 10px;
-
+    margin-bottom: 30px;
 }
 
 nav{
@@ -104,6 +102,14 @@ picture{
 picture img{
     display: block;
     margin: auto;
+}
+
+aside{
+    background-color: var(--cor3);
+    border: black solid 1px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.178) ;
 }
 
 footer{
